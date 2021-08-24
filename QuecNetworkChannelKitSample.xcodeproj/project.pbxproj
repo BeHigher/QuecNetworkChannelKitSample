@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06CCA65532B3F2FA48E73154 /* Pods_QuecNetworkChannelKitSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A945A7CBAA9B59CC081B83E2 /* Pods_QuecNetworkChannelKitSample.framework */; };
+		0AFFC48B91888456A70958EB /* Pods_QuecNetworkChannelKitSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEADCBEA73366E90F0345B1F /* Pods_QuecNetworkChannelKitSampleTests.framework */; };
+		30E51E1B26D4C86700502BE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E51E1A26D4C86700502BE9 /* AppDelegate.m */; };
+		30E51E1E26D4C86700502BE9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E51E1D26D4C86700502BE9 /* SceneDelegate.m */; };
+		30E51E2126D4C86700502BE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E51E2026D4C86700502BE9 /* ViewController.m */; };
+		30E51E2426D4C86700502BE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E51E2226D4C86700502BE9 /* Main.storyboard */; };
+		30E51E2626D4C86A00502BE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E51E2526D4C86A00502BE9 /* Assets.xcassets */; };
+		30E51E2926D4C86A00502BE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E51E2726D4C86A00502BE9 /* LaunchScreen.storyboard */; };
+		30E51E2C26D4C86A00502BE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E51E2B26D4C86A00502BE9 /* main.m */; };
+		30E51E3626D4C86A00502BE9 /* QuecNetworkChannelKitSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E51E3526D4C86A00502BE9 /* QuecNetworkChannelKitSampleTests.m */; };
+		30E51E4126D4C86A00502BE9 /* QuecNetworkChannelKitSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E51E4026D4C86A00502BE9 /* QuecNetworkChannelKitSampleUITests.m */; };
+		F7B21DEDB8F8CED088D82638 /* Pods_QuecNetworkChannelKitSample_QuecNetworkChannelKitSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A68C652DBBF25433131C53E /* Pods_QuecNetworkChannelKitSample_QuecNetworkChannelKitSampleUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30E51E3226D4C86A00502BE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E51E0E26D4C86700502BE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30E51E1526D4C86700502BE9;
+			remoteInfo = QuecNetworkChannelKitSample;
+		};
+		30E51E3D26D4C86A00502BE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E51E0E26D4C86700502BE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30E51E1526D4C86700502BE9;
+			remoteInfo = QuecNetworkChannelKitSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15B9438C620F2BBADD8321CA /* Pods-QuecNetworkChannelKitSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuecNetworkChannelKitSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-QuecNetworkChannelKitSampleTests/Pods-QuecNetworkChannelKitSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		30E51E1626D4C86700502BE9 /* QuecNetworkChannelKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuecNetworkChannelKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E51E1926D4C86700502BE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30E51E1A26D4C86700502BE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30E51E1C26D4C86700502BE9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		30E51E1D26D4C86700502BE9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		30E51E1F26D4C86700502BE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30E51E2026D4C86700502BE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30E51E2326D4C86700502BE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30E51E2526D4C86A00502BE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30E51E2826D4C86A00502BE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30E51E2A26D4C86A00502BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E51E2B26D4C86A00502BE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30E51E3126D4C86A00502BE9 /* QuecNetworkChannelKitSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuecNetworkChannelKitSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E51E3526D4C86A00502BE9 /* QuecNetworkChannelKitSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuecNetworkChannelKitSampleTests.m; sourceTree = "<group>"; };
+		30E51E3726D4C86A00502BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E51E3C26D4C86A00502BE9 /* QuecNetworkChannelKitSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuecNetworkChannelKitSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E51E4026D4C86A00502BE9 /* QuecNetworkChannelKitSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuecNetworkChannelKitSampleUITests.m; sourceTree = "<group>"; };
+		30E51E4226D4C86A00502BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A68C652DBBF25433131C53E /* Pods_QuecNetworkChannelKitSample_QuecNetworkChannelKitSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuecNetworkChannelKitSample_QuecNetworkChannelKitSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4ADE0400AD5135E3A02A4C /* Pods-QuecNetworkChannelKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuecNetworkChannelKitSample.release.xcconfig"; path = "Target Support Files/Pods-QuecNetworkChannelKitSample/Pods-QuecNetworkChannelKitSample.release.xcconfig"; sourceTree = "<group>"; };
+		97D3897084CE75E6277F8703 /* Pods-QuecNetworkChannelKitSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuecNetworkChannelKitSample.debug.xcconfig"; path = "Target Support Files/Pods-QuecNetworkChannelKitSample/Pods-QuecNetworkChannelKitSample.debug.xcconfig"; sourceTree = "<group>"; };
+		9CC32CB671CBAF38BF08634C /* Pods-QuecNetworkChannelKitSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuecNetworkChannelKitSampleTests.release.xcconfig"; path = "Target Support Files/Pods-QuecNetworkChannelKitSampleTests/Pods-QuecNetworkChannelKitSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		A945A7CBAA9B59CC081B83E2 /* Pods_QuecNetworkChannelKitSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuecNetworkChannelKitSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEADCBEA73366E90F0345B1F /* Pods_QuecNetworkChannelKitSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuecNetworkChannelKitSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C144F33D5F1B207E247AD8 /* Pods-QuecNetworkChannelKitSample-QuecNetworkChannelKitSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuecNetworkChannelKitSample-QuecNetworkChannelKitSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-QuecNetworkChannelKitSample-QuecNetworkChannelKitSampleUITests/Pods-QuecNetworkChannelKitSample-QuecNetworkChannelKitSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F9E4353BC15C9385C6162A64 /* Pods-QuecNetworkChannelKitSample-QuecNetworkChannelKitSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuecNetworkChannelKitSample-QuecNetworkChannelKitSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuecNetworkChannelKitSample-QuecNetworkChannelKitSampleUITests/Pods-QuecNetworkChannelKitSample-QuecNetworkChannelKitSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30E51E1326D4C86700502BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CCA65532B3F2FA48E73154 /* Pods_QuecNetworkChannelKitSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E51E2E26D4C86A00502BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFFC48B91888456A70958EB /* Pods_QuecNetworkChannelKitSampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E51E3926D4C86A00502BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B21DEDB8F8CED088D82638 /* Pods_QuecNetworkChannelKitSample_QuecNetworkChannelKitSampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30E51E0D26D4C86700502BE9 = {
+			isa = PBXGroup;
+			children = (
+				30E51E1826D4C86700502BE9 /* QuecNetworkChannelKitSample */,
+				30E51E3426D4C86A00502BE9 /* QuecNetworkChannelKitSampleTests */,
+				30E51E3F26D4C86A00502BE9 /* QuecNetworkChannelKitSampleUITests */,
+				30E51E1726D4C86700502BE9 /* Products */,
+				8651C7D310EEA9B451909E8E /* Pods */,
+				404B9F5124B201C8C1BFAF46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30E51E1726D4C86700502BE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30E51E1626D4C86700502BE9 /* QuecNetworkChannelKitSample.app */,
+				30E51E3126D4C86A00502BE9 /* QuecNetworkChannelKitSampleTests.xctest */,
+				30E51E3C26D4C86A00502BE9 /* QuecNetworkChannelKitSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30E51E1826D4C86700502BE9 /* QuecNetworkChannelKitSample */ = {
+			isa = PBXGroup;
+			children = (
+				30E51E1926D4C86700502BE9 /* AppDelegate.h */,
+				30E51E1A26D4C86700502BE9 /* AppDelegate.m */,
+				30E51E1C26D4C86700502BE9 /* SceneDelegate.h */,
+				30E51E1D26D4C86700502BE9 /* SceneDelegate.m */,
+				30E51E1F26D4C86700502BE9 /* ViewController.h */,
+				30E51E2026D4C86700502BE9 /* ViewController.m */,
+				30E51E2226D4C86700502BE9 /* Main.storyboard */,
+				30E51E2526D4C86A00502BE9 /* Assets.xcassets */,
+				30E51E2726D4C86A00502BE9 /* LaunchScreen.storyboard */,
+				30E51E2A26D4C86A00502BE9 /* Info.plist */,
+				30E51E2B26D4C86A00502BE9 /* main.m */,
+			);
+			path = QuecNetworkChannelKitSample;
+			sourceTree = "<group>";
+		};
+		30E51E3426D4C86A00502BE9 /* QuecNetworkChannelKitSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				30E51E3526D4C86A00502BE9 /* QuecNetworkChannelKitSampleTests.m */,
+				30E51E3726D4C86A00502BE9 /* Info.plist */,
+			);
+			path = QuecNetworkChannelKitSampleTests;
+			sourceTree = "<group>";
+		};
+		30E51E3F26D4C86A00502BE9 /* QuecNetworkChannelKitSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30E51E4026D4C86A00502BE9 /* QuecNetworkChannelKitSampleUITests.m */,
+				30E51E4226D4C86A00502BE9 /* Info.plist */,
+			);
+			path = QuecNetworkChannelKitSampleUITests;
+			sourceTree = "<group>";
+		};
+		404B9F5124B201C8C1BFAF46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A945A7CBAA9B59CC081B83E2 /* Pods_QuecNetworkChannelKitSample.framework */,
+				8A68C652DBBF25433131C53E /* Pods_QuecNetworkChannelKitSample_QuecNetworkChannelKitSampleUITests.framework */,
+				DEADCBEA73366E90F0345B1F /* Pods_QuecNetworkChannelKitSampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8651C7D310EEA9B451909E8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97D3897084CE75E6277F8703 /* Pods-QuecNetworkChannelKitSample.debug.xcconfig */,
+				8E4ADE0400AD5135E3A02A4C /* Pods-QuecNetworkChannelKitSample.release.xcconfig */,
+				F9E4353BC15C9385C6162A64 /* Pods-QuecNetworkChannelKitSample-QuecNetworkChannelKitSampleUITests.debug.xcconfig */,
+				E6C144F33D5F1B207E247AD8 /* Pods-QuecNetworkChannelKitSample-QuecNetworkChannelKitSampleUITests.release.xcconfig */,
+				15B9438C620F2BBADD8321CA /* Pods-QuecNetworkChannelKitSampleTests.debug.xcconfig */,
+				9CC32CB671CBAF38BF08634C /* Pods-QuecNetworkChannelKitSampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30E51E1526D4C86700502BE9 /* QuecNetworkChannelKitSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E51E4526D4C86A00502BE9 /* Build configuration list for PBXNativeTarget "QuecNetworkChannelKitSample" */;
+			buildPhases = (
+				9109FD59919371CDCF71BD80 /* [CP] Check Pods Manifest.lock */,
+				30E51E1226D4C86700502BE9 /* Sources */,
+				30E51E1326D4C86700502BE9 /* Frameworks */,
+				30E51E1426D4C86700502BE9 /* Resources */,
+				63FC14ED05A8F4DA5A033266 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuecNetworkChannelKitSample;
+			productName = QuecNetworkChannelKitSample;
+			productReference = 30E51E1626D4C86700502BE9 /* QuecNetworkChannelKitSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30E51E3026D4C86A00502BE9 /* QuecNetworkChannelKitSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E51E4826D4C86A00502BE9 /* Build configuration list for PBXNativeTarget "QuecNetworkChannelKitSampleTests" */;
+			buildPhases = (
+				5798F5F26A845F7ED43A46EF /* [CP] Check Pods Manifest.lock */,
+				30E51E2D26D4C86A00502BE9 /* Sources */,
+				30E51E2E26D4C86A00502BE9 /* Frameworks */,
+				30E51E2F26D4C86A00502BE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30E51E3326D4C86A00502BE9 /* PBXTargetDependency */,
+			);
+			name = QuecNetworkChannelKitSampleTests;
+			productName = QuecNetworkChannelKitSampleTests;
+			productReference = 30E51E3126D4C86A00502BE9 /* QuecNetworkChannelKitSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30E51E3B26D4C86A00502BE9 /* QuecNetworkChannelKitSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E51E4B26D4C86A00502BE9 /* Build configuration list for PBXNativeTarget "QuecNetworkChannelKitSampleUITests" */;
+			buildPhases = (
+				64A7498138AB79DADE492235 /* [CP] Check Pods Manifest.lock */,
+				30E51E3826D4C86A00502BE9 /* Sources */,
+				30E51E3926D4C86A00502BE9 /* Frameworks */,
+				30E51E3A26D4C86A00502BE9 /* Resources */,
+				EACB211691CD097751972582 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30E51E3E26D4C86A00502BE9 /* PBXTargetDependency */,
+			);
+			name = QuecNetworkChannelKitSampleUITests;
+			productName = QuecNetworkChannelKitSampleUITests;
+			productReference = 30E51E3C26D4C86A00502BE9 /* QuecNetworkChannelKitSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30E51E0E26D4C86700502BE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					30E51E1526D4C86700502BE9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					30E51E3026D4C86A00502BE9 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 30E51E1526D4C86700502BE9;
+					};
+					30E51E3B26D4C86A00502BE9 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 30E51E1526D4C86700502BE9;
+					};
+				};
+			};
+			buildConfigurationList = 30E51E1126D4C86700502BE9 /* Build configuration list for PBXProject "QuecNetworkChannelKitSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30E51E0D26D4C86700502BE9;
+			productRefGroup = 30E51E1726D4C86700502BE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30E51E1526D4C86700502BE9 /* QuecNetworkChannelKitSample */,
+				30E51E3026D4C86A00502BE9 /* QuecNetworkChannelKitSampleTests */,
+				30E51E3B26D4C86A00502BE9 /* QuecNetworkChannelKitSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30E51E1426D4C86700502BE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E51E2926D4C86A00502BE9 /* LaunchScreen.storyboard in Resources */,
+				30E51E2626D4C86A00502BE9 /* Assets.xcassets in Resources */,
+				30E51E2426D4C86700502BE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E51E2F26D4C86A00502BE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E51E3A26D4C86A00502BE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5798F5F26A845F7ED43A46EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuecNetworkChannelKitSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63FC14ED05A8F4DA5A033266 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuecNetworkChannelKitSample/Pods-QuecNetworkChannelKitSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuecNetworkChannelKitSample/Pods-QuecNetworkChannelKitSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuecNetworkChannelKitSample/Pods-QuecNetworkChannelKitSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64A7498138AB79DADE492235 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuecNetworkChannelKitSample-QuecNetworkChannelKitSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9109FD59919371CDCF71BD80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuecNetworkChannelKitSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EACB211691CD097751972582 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuecNetworkChannelKitSample-QuecNetworkChannelKitSampleUITests/Pods-QuecNetworkChannelKitSample-QuecNetworkChannelKitSampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuecNetworkChannelKitSample-QuecNetworkChannelKitSampleUITests/Pods-QuecNetworkChannelKitSample-QuecNetworkChannelKitSampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuecNetworkChannelKitSample-QuecNetworkChannelKitSampleUITests/Pods-QuecNetworkChannelKitSample-QuecNetworkChannelKitSampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30E51E1226D4C86700502BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E51E2126D4C86700502BE9 /* ViewController.m in Sources */,
+				30E51E1B26D4C86700502BE9 /* AppDelegate.m in Sources */,
+				30E51E2C26D4C86A00502BE9 /* main.m in Sources */,
+				30E51E1E26D4C86700502BE9 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E51E2D26D4C86A00502BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E51E3626D4C86A00502BE9 /* QuecNetworkChannelKitSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E51E3826D4C86A00502BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E51E4126D4C86A00502BE9 /* QuecNetworkChannelKitSampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30E51E3326D4C86A00502BE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30E51E1526D4C86700502BE9 /* QuecNetworkChannelKitSample */;
+			targetProxy = 30E51E3226D4C86A00502BE9 /* PBXContainerItemProxy */;
+		};
+		30E51E3E26D4C86A00502BE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30E51E1526D4C86700502BE9 /* QuecNetworkChannelKitSample */;
+			targetProxy = 30E51E3D26D4C86A00502BE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30E51E2226D4C86700502BE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E51E2326D4C86700502BE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30E51E2726D4C86A00502BE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E51E2826D4C86A00502BE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30E51E4326D4C86A00502BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30E51E4426D4C86A00502BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30E51E4626D4C86A00502BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97D3897084CE75E6277F8703 /* Pods-QuecNetworkChannelKitSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNF8D63KDW;
+				INFOPLIST_FILE = QuecNetworkChannelKitSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.quectel.com.QuecNetworkChannelKitSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30E51E4726D4C86A00502BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4ADE0400AD5135E3A02A4C /* Pods-QuecNetworkChannelKitSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNF8D63KDW;
+				INFOPLIST_FILE = QuecNetworkChannelKitSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.quectel.com.QuecNetworkChannelKitSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30E51E4926D4C86A00502BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B9438C620F2BBADD8321CA /* Pods-QuecNetworkChannelKitSampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNF8D63KDW;
+				INFOPLIST_FILE = QuecNetworkChannelKitSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.quectel.com.QuecNetworkChannelKitSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuecNetworkChannelKitSample.app/QuecNetworkChannelKitSample";
+			};
+			name = Debug;
+		};
+		30E51E4A26D4C86A00502BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC32CB671CBAF38BF08634C /* Pods-QuecNetworkChannelKitSampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNF8D63KDW;
+				INFOPLIST_FILE = QuecNetworkChannelKitSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.quectel.com.QuecNetworkChannelKitSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuecNetworkChannelKitSample.app/QuecNetworkChannelKitSample";
+			};
+			name = Release;
+		};
+		30E51E4C26D4C86A00502BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E4353BC15C9385C6162A64 /* Pods-QuecNetworkChannelKitSample-QuecNetworkChannelKitSampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNF8D63KDW;
+				INFOPLIST_FILE = QuecNetworkChannelKitSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.quectel.com.QuecNetworkChannelKitSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuecNetworkChannelKitSample;
+			};
+			name = Debug;
+		};
+		30E51E4D26D4C86A00502BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C144F33D5F1B207E247AD8 /* Pods-QuecNetworkChannelKitSample-QuecNetworkChannelKitSampleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNF8D63KDW;
+				INFOPLIST_FILE = QuecNetworkChannelKitSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.quectel.com.QuecNetworkChannelKitSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuecNetworkChannelKitSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30E51E1126D4C86700502BE9 /* Build configuration list for PBXProject "QuecNetworkChannelKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E51E4326D4C86A00502BE9 /* Debug */,
+				30E51E4426D4C86A00502BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E51E4526D4C86A00502BE9 /* Build configuration list for PBXNativeTarget "QuecNetworkChannelKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E51E4626D4C86A00502BE9 /* Debug */,
+				30E51E4726D4C86A00502BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E51E4826D4C86A00502BE9 /* Build configuration list for PBXNativeTarget "QuecNetworkChannelKitSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E51E4926D4C86A00502BE9 /* Debug */,
+				30E51E4A26D4C86A00502BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E51E4B26D4C86A00502BE9 /* Build configuration list for PBXNativeTarget "QuecNetworkChannelKitSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E51E4C26D4C86A00502BE9 /* Debug */,
+				30E51E4D26D4C86A00502BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30E51E0E26D4C86700502BE9 /* Project object */;
+}

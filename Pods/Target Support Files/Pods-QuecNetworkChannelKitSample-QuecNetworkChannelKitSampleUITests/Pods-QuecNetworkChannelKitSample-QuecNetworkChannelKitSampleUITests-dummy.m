@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_QuecNetworkChannelKitSample_QuecNetworkChannelKitSampleUITests : NSObject
+@end
+@implementation PodsDummy_Pods_QuecNetworkChannelKitSample_QuecNetworkChannelKitSampleUITests
+@end

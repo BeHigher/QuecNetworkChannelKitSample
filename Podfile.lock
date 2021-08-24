@@ -1,0 +1,35 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - QuecNetworkChannelKit (1.0.0):
+    - AFNetworking (~> 4.0.1)
+
+DEPENDENCIES:
+  - QuecNetworkChannelKit
+
+SPEC REPOS:
+  https://github.com/BeHigher/IoTPublicSpeces.git:
+    - QuecNetworkChannelKit
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  QuecNetworkChannelKit: 8ce4eeef9eec5f7d852790b64fc94117001fac48
+
+PODFILE CHECKSUM: 9fd3569c32d58e66eacaaf77e3ff81f0248b4eef
+
+COCOAPODS: 1.10.1
