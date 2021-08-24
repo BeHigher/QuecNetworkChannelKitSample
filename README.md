@@ -179,5 +179,3 @@ end
         }];
         
 ```
-
-### 具体API用法可以参考[demo](http://192.168.23.184:8108/frontend/app/business/quec-app-business-baidu-map-demo)。
