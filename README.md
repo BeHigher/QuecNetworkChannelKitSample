@@ -59,7 +59,7 @@
 | --- | --- | 
 | urlString |	请求地址，如果不是完整的地址将自动添加 baseUrl	| 
 | params |	请求参数	| 
-| requestType |	请求类型，GET、POST、PUT、DELETE	| 
+| requestType |	请求类型，GET、POST、PUT、DELETE、HEAD、PATCH	| 
 | success |	接口请求成功回调	| 
 | failure |	接口请求失败回调	| 
 
