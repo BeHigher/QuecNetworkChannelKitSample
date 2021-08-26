@@ -3,11 +3,11 @@
 
 ## 网络请求SDK
 
-### 一、组件功能列表
+### 一、功能列表
 
 |功能	|功能说明	|实现版本	|微服务版本号|
 | --- | --- | --- | --- |
-|网络请求相关	| 常见接口请求、文件上传、文件下载 |	1.0.0	| |
+|网络请求相关	| 常见接口请求、文件上传、文件下载、网络状态查询和监听 |	1.0.0	| |
 
 
 ### 二、设计接口/属性
@@ -19,7 +19,7 @@
 |  ----  | ----  |  ----  | ----  | ----  |
 |timeoutInterval	|NSInteger|	否	|请求超时时间，默认是30s||
 |baseUrl|	NSString 	| 否	|base url | |
-|httpHeaderFields	|NSDictionary	|否	|http headers|  |
+|httpHeaderFields	|NSDictionary	|否	|http headers，默认: {@"Content-Type":@"application/json",@"Accept":@"application/json"}|  |
 
 
 ### QuecNetworkManager 方法
@@ -84,7 +84,7 @@
 #### 文件下载
 
 ```
-- (void)requestDownLoadDataWithUrlString:(NSString *)urlString filePath:(NSString *)filePath progress:(void(^)(NSProgress *progress))progress success:(void(^)(NSString *filePath))success failure:(void(^)(NSError *error))failure;
+- (void)requestDownLoadDataWithUrlString:(NSString *)urlString filePath:(NSString *)filePath progress:(void(^)(NSProgress *progress))progress success:(void(^)(NSString *fullFilePath))success failure:(void(^)(NSError *error))failure;
 
 ```
 
@@ -179,3 +179,5 @@ end
         }];
         
 ```
+
+### 具体API用法可以参考[example](https://github.com/BeHigher/QuecNetworkChannelKitSample)。
